@@ -1,0 +1,40 @@
+body{
+	font-family:sans serif;
+}
+
+.task-one{
+	height: 600px;
+	background-color: white;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-between;
+	/* align-items:center; */
+}
+
+.wrapper div{
+	height:150px;
+	width:150px;
+	background-color: yellow;
+	margin: 10px;
+	color:white;
+}
+/* .one, .two, .three{
+	align-self:flex-start;
+} */
+
+div.one, div.nine{
+	background-color: green;
+}
+.two{
+	/* flex-grow:1; */
+	/* min-height:500px; */
+}
+.four, .five, .six{
+	/* align-self:flex-end; */
+	
+}
+
+ .nine{
+ 	flex-grow:1;
+ }
